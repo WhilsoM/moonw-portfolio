@@ -2,11 +2,10 @@
 @import './styles/vars.scss';
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
 
+// dark
 .dark {
-	$page-bg: #252526;
-	$text-color: $white;
-
-	$title-1: $white;
+	background-color: #252526;
+	color: $white;
 
 	$project-card-bg: $black;
 	$project-card-text: $white;

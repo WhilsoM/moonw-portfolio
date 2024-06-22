@@ -1,4 +1,13 @@
 @import '../../styles/vars.scss';
+
+body.dark {
+	.project {
+		background-color: $black;
+	}
+	.project__title {
+		color: $white;
+	}
+}
 .project {
 	max-width: 370px;
 	background-color: $project-card-bg;
